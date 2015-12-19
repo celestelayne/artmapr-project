@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>ArtMapr | Discover Art You'll Love</title>
+
+    <!-- VENDOR SCRIPTS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    <!-- HNADLEBARS TEMPLATING -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <!-- APPLICATION SCRIPTS -->
+    <script src="js/app.js"></script>
+
+    <!-- STYLESHEETS -->
+    <!-- Materialize CSS CDN -->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <!-- Application -->
+    <link rel="stylesheet" href="/styles/main.css" >
+
+  </head>
+  <body>
+    <div class="container">
+      <section class="row">
+        <div class="row">
+          <h2>List of Arts</h2>
+        </div>
+        <!-- arts -->
+        <div class="col s6">
+          <div id="arts" class="card">
+
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script id="artsTemplate" type="text/x-handlebars-template">
+      {{#each art}}
+        <div class="card-image">
+          <img class="activator" src="{{image_src}}">
+          <span class="card-title">{{title}}</span>
+        </div>
+        <div class="card-content">
+
+            <p>{{artist}}</p>
+            <p>{{medium}}</p>
+
+        </div>
+        {{/each}}
+    </script>
+  </body>
+</html>
