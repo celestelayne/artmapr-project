@@ -2,7 +2,9 @@
  * CLIENT-SIDE JAVASCRIPT *
  **************************/
 
+ var allArts;
  var arts = [];
+
    arts.push({
      _id: 1,
      artist: 'Aaron Siskind',
@@ -46,9 +48,9 @@
         console.log(data.length);
           data.forEach(function(artItem){
             arts.push(artItem);
-
           });
-        console.log(arts);
+        allArts = arts;
+        console.log(allArts);
         renderArt(arts);
       },
       error: function(){
