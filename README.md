@@ -1,16 +1,16 @@
-  ## ArtMapr
+## ArtMapr
 
-  ArtMapr is an art discovery web application.
+ArtMapr is an art discovery web application.
 
-  ### Version
-  0.0.2
+### Version
+0.0.2
 
-  ### Technologies Used
+### Technologies Used
 
-  ArtMapr uses a number of tools and frameworks:
+ArtMapr uses a number of tools and frameworks:
 
-  * [Sublime Text] - a cross-platform text and source code editor
-  * [Materialize] - great UI boilerplate for modern web apps
-  * [node.js] - evented I/O for the backend
-  * [Express] - fast node.js network app framework
-  * [Mongo] - noSQL database
+* [Sublime Text] - a cross-platform text and source code editor
+* [Materialize] - great UI boilerplate for modern web apps
+* [node.js] - evented I/O for the backend
+* [Express] - fast node.js network app framework
+* [Mongo] - noSQL database

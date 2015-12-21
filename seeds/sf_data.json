@@ -1,0 +1,68 @@
+[ {
+  "title" : "title",
+  "artist" : "artist",
+  "medium" : "medium",
+  "geometry" : "geometry"
+}
+, {
+  "title" : "Promenade Ribbon",
+  "created_at" : 1995,
+  "artist" : "Acconci, Saitowitz and Soloman",
+  "medium" : "Black concrete, with a strip of glass blocks, to be illuminated at night",
+  "geometry" : "{\"type\":\"Point\",\"coordinates\":[-122.4120591,37.8085303]}"
+}
+, {
+  "title" : "Two Wings for Wall and Person",
+  "artist" : "Acconci, Vito",
+  "medium" : "Etching on Paper",
+  "geometry" : "{\"type\":\"Point\",\"coordinates\":[-122.389979,37.615223]}"
+}
+, {
+  "title" : "Light Beams for the Sky of Transfer Cooridor",
+  "created_at" : 2002,
+  "artist" : "Acconci, Vito",
+  "medium" : "mixed medium",
+  "geometry" : "{\"type\":\"Point\",\"coordinates\":[-122.389979,37.615223]}"
+}
+, {
+  "title" : "Cityscape #33",
+  "created_at" : 1977,
+  "artist" : "Adams, Gloria Cozzo",
+  "medium" : "Acrylic and ink on canvas",
+  "geometry" : "{\"type\":\"Point\",\"coordinates\":[-122.389979,37.615223]}"
+}
+, {
+  "title" : "Garden Outside the Gate (The Garden Tapestries)",
+  "created_at" : 1982,
+  "artist" : "Adams, Mark",
+  "medium" : "Flat weave wool tapestry",
+  "geometry" : "{\"type\":\"Point\",\"coordinates\":[-122.389979,37.615223]}"
+}
+, {
+  "title" : "Garden in San Andreas Valley (The Garden Tapestries)",
+  "artist" : "Adams, Mark",
+  "medium" : "Flat weave wool tapestry",
+  "geometry" : "{\"type\":\"Point\",\"coordinates\":[-122.389979,37.615223]}"
+}
+, {
+  "title" : "Pond in Golden Gate Park (The Garden Tapestries)",
+  "created_at" : 1981,
+  "artist" : "Adams, Mark",
+  "medium" : "Flat weave wool tapestry",
+  "geometry" : "{\"type\":\"Point\",\"coordinates\":[-122.389979,37.615223]}"
+}
+, {
+  "title" : "The Dewey Monument (Admiral George Dewey, 1837-1917)",
+  "created_at" : 1901,
+  "artist" : "Aitken, Robert Ingersoll",
+  "medium" : "Bronze figure on granite base",
+  "geometry" : "{\"type\":\"Point\",\"coordinates\":[-122.4075,37.7880556]}"
+}
+, {
+  "title" : "Spandrels on Spreckles Temple of Music",
+  "created_at" : 1899,
+  "artist" : "Aitken, Robert Ingersoll",
+  "medium" : "Cast Concrete",
+  "geometry" : "{\"type\":\"Point\",\"coordinates\":[-122.4666711,37.7703537]}"
+}
+ ]

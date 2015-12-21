@@ -4,7 +4,10 @@
 
   // Mongoose Schema definition
   var ArtSchema = new Schema({
-    artist: {
+    first_name: {
+      type: String
+    },
+    last_name: {
       type: String
     },
     medium: {
